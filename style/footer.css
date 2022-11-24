@@ -1,0 +1,14 @@
+/* Propriétés du pied de page. */
+footer {
+	margin: 20px 0 20px 0;
+  text-align: center;
+	color: rgba(150, 150, 150, 1);
+  font-size: 0.7vw;
+}
+
+/* Transformation à appliquer quand l'écran devient petit. */
+@media (max-width: 650px), (pointer:none), (pointer:coarse) {
+  footer {
+    font-size: 3vw;
+  }
+}

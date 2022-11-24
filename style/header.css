@@ -1,0 +1,56 @@
+/* Propriétés de la zone du logo, titre et barre de recherche. */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px auto 20px auto;
+  padding: 0;
+  user-select: none;
+  -ms-user-select: none;
+}
+
+header #logo  {
+  width: 160px;
+  height: 160px;
+  background: url(../images/menu/logo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header #title {
+  margin: auto 0 auto 0;
+  padding: 0 30px 0 30px;
+  height: 100%;
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: bold;
+  text-shadow: var(--black_color) 5px 0 10px;
+  color: var(--gold_color);
+}
+
+header a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Transformation à appliquer quand l'écran devient petit. */
+@media (max-width: 650px), (pointer: none), (pointer: coarse) {
+  header {
+    margin: 0 0 20px 0;
+    justify-content: flex-start;
+    width: 100%;
+    background: var(--transparent_black_color);
+  }
+
+  header #logo {
+    margin: 0 0 0 10px;
+    width: 80px;
+    height: 80px;
+  }
+
+  header #title {
+    flex-grow: 1;
+    font-size: 3.5vw;
+  }
+}

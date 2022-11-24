@@ -1,0 +1,1 @@
+<footer>©<?php echo date('Y'); ?> IUT La Rochelle. Tous droits réservés.</footer>

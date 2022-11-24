@@ -1,0 +1,31 @@
+/* Variables du fichier CSS. */
+:root {
+  --white_color: rgba(255, 255, 255, 1);
+  --black_color: rgba(0, 0, 0, 1);
+  --transparent_black_color: rgba(0, 0, 0, 0.25);
+  --gray_color: rgba(50, 50, 50, 1);
+  --yellow_color: rgba(240, 200, 120, 1);
+  --gold_color: rgba(240, 175, 40, 1);
+  --red_color: rgba(255, 75, 60, 1);
+  --dark_red_color: rgba(240, 50, 40, 1);
+  --blue_color: rgba(0, 180, 200, 1);
+  --green_color: rgba(170, 200, 0, 1);
+}
+
+/* Propriétés de toute la page. */
+html {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: var(--gray_color);
+	background-image: url(../images/menu/background_2.png), url(../images/menu/background_1.png);
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: var(--white_color);
+	animation: background 40s linear infinite;
+}
+
+@keyframes background {
+    from { background-position: 0 0, 512px 512px; }
+    to { background-position: 512px 512px, 0 0; }
+}

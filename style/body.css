@@ -1,0 +1,176 @@
+/* Propriétés de chaque page. */
+body {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+}
+
+body a {
+  text-decoration: none;
+}
+
+/* Propriétés de la zone du fil d'Arianne. */
+body #path {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin: 20px auto 20px auto;
+  padding: 8px;
+  width: 75%;
+  font-size: 20px;
+  background: var(--transparent_black_color);
+}
+
+body #path p {
+  margin: auto auto auto 8px;
+}
+
+body #path a {
+  color: var(--white_color);
+  transition: all 0.3s ease;
+}
+
+body #path a:hover {
+  color: var(--gold_color);
+  transition: all 0.3s ease;
+}
+
+/* Propriétés de la zone de recherche. */
+body #path #search {
+  display: flex;
+  justify-content: center;
+}
+
+body #path #search input[type=text] {
+  width: 300px;
+  height: 24px;
+  margin: auto;
+  padding: 0 0 0 10px;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+body #path #search input[type=submit] {
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 8px;
+  background: url(../images/menu/search.png);
+  background-size: 100% 100%;
+	background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+body #path #search input[type=submit]:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+/* Propriétés des éléments de chaque page. */
+body #main {
+  margin: auto;
+  padding: 20px;
+  width: 70%;
+	min-height: 200px;
+  background: var(--transparent_black_color);
+}
+
+body #main h1 {
+  display: inline-block;
+  align-self: flex-start;
+  margin: 0;
+  padding: 16px;
+  font-size: 50px;
+  background: var(--gold_color);
+}
+
+body #main h2 {
+  margin: 0;
+  padding: 8px;
+  font-size: 30px;
+  color: var(--gold_color);
+  background: var(--transparent_black_color);
+}
+
+body #main h3 {
+  margin: 0;
+  padding: 8px;
+  font-size: 20px;
+  color: var(--gold_color);
+  background: var(--transparent_black_color);
+}
+
+body #main p {
+  margin: 20px;
+}
+
+body #main ul {
+  margin: 20px;
+  padding: 0 0 0 20px;
+}
+
+body #main img {
+  border: 8px solid var(--transparent_black_color);
+  transition: all 0.3s ease;
+}
+
+body #main a:hover img {
+  filter: brightness(2);
+  transition: all 0.3s ease;
+}
+
+body #main a {
+  color: var(--blue_color);
+  font-weight: bold;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
+
+body #main a:hover {
+  color: var(--white_color);
+  transition: all 0.3s ease;
+}
+
+/* Transformation à appliquer quand l'écran devient moyen. */
+@media (max-width: 1000px) {
+  /* Propriétés de la zone du fil d'Arianne. */
+  body #path {
+    width: 90%;
+  }
+
+  /* Propriétés du contenu de la page. */
+  body #main {
+    width: 85%;
+  }
+
+  /* Propriétés de chaque titre du site. */
+  body #main h1 {
+    align-self: center;
+    text-align: center;
+  }
+
+  body #main h2 {
+    text-align: center;
+  }
+
+  body #main h3 {
+    text-align: center;
+  }
+}
+
+/* Transformation à appliquer quand l'écran devient petit. */
+@media (max-width: 650px), (pointer: none), (pointer: coarse) {
+  /* Propriétés de la zone du fil d'Arianne. */
+  body #path {
+    width: auto;
+  }
+
+  /* Propriétés du contenu de la page. */
+  body #main {
+    width: auto;
+  }
+}

@@ -1,0 +1,127 @@
+architecte logiciel 
+
+--description brève
+L'architecte logiciel est un expert en informatique qui est responsable de la création et du respect du modèle d'architecture logicielle.
+
+--détails
+Il analyse ou créé un système pour comprendre les attentes de l'utilisateur et ainsi les cmbler en concevant des architectures logicielles out en étant capable de se mettre à jour sur les dernières normes et technologies.
+
+--qualités requises en liste
+Un esprit "leadership"
+Adaptabilité
+Analyse
+Créativité
+Sens relationnel
+Rigueur
+Communication orale et écrite
+
+-compétences en liste
+Solides compétences en informatique et technologies spécifiques
+Gestion d'entreprise
+Résolution de problèmes complexes
+Transmission des connaaissances
+Maitrises des logiciels
+Anglais
+
+--formations
+Bac+5 en école d'ingénieur ou université spécialisée en informatique. 
+</br> Exemple : L'ESTIAMA à Lyon
+
+--salaire
+L'architecte logiciel peut avoir un salaire allant de 5 000€ à 8 000€ brut par mois.
+
+--évolution possible
+Ce métier n'a pas de réelle évolution,il est plutôt considéré comme un aboutissement de carrière après de longues années en tant qu' ingénieur en développement logiciel.
+
+
+
+pentester
+
+--description brève
+Le pentesteur est un professionnel de la sécurité informatique qui controle la sécurité des applications et des réseaux informatiques en opérant des tests d'intrusion.
+
+--détails
+Son nom vient de la contraction de l'anglais "penetration tester". Il est souvent considéré comme un "gentil hacker". </br> Le pentester va chercher des failles de sécurité dans un système pour ensuite procéder à des tests d'intrusion. Suite à ces tests il va pouvoir défini le niveau de vulnérabilité des failles détectées et proposer des solutions techniques pour y remédier.
+Ce spécialiste de l'intrusion exerce directement au des entreprises, de l'administration ou bien dans un cabinet de conseil spécialisé en sécurité des systèmes d'informations.
+
+--qualités requises en liste
+    <ul>
+      <li>Être pédagogue face aux clients</li>
+      <li>posséder un sens de l'éthique irréprochable</li>
+      <li>Savoir s'exprimer (autant à l'écrit qu'à l'oral)</li>
+    </ul>
+
+-compétences en liste
+    <ul>
+      <li>Réseau</li>
+      <li>Sécurité informatique</li>
+      <li>Développement logiciel</li>
+      <li>Systèmes informatiques</li>
+      <li>Différents languages de programmation</li>
+      <li>Nombreuses connaissances pratiques</li>
+    </ul>
+
+--formations
+Bac +5 
+  <ul>
+    <li>Diplôme d'ingénieur</li>
+    <li>Masteur en informatique avec spécialisation en cybersécurité</li>
+  </ul>
+
+Mais il faut surtout beaucoup de pratique et il existe de nobreux autodidactes dans le métier.
+
+
+--salaire
+Le salaire d'un pentesteur débutant peut être de 3 000€ brut par mois et il peut aller jusqu'à 8 000€ pour les meilleurs dan sle domaines. 
+
+--évolution possible
+Après quelques années d'expérience, il est possible de devenir responsable d'intrusion, se spécialiser dans un type de système ou encore créer son cabinet de conseil en informatique 
+
+
+
+
+game designer
+
+--description brève
+Le game designer est au coeur de la conception de jeux vidéos du simple petit jeu jusqu'au jeu avec un univers étendu complexe.
+
+--détails
+Le game designer est présent à toutes les étapes e la conception d'un jeu : l'analyse de la cible, la mise en place du l'histoire, des règles, la rédaction du cahier des charges, la prise en main du jeu etc..
+
+--qualités requises en liste
+Sensibilité artistique et créative
+Minutieux
+Passionné
+Esprit d'équipe
+
+
+-compétences en liste
+Anglais
+Languages informatique (javascript, html css ..)
+Maitrise de logiciel de conception de jeux vidéos
+
+
+--formations
+• Bac S/ES/STD2A
+• DUT Informatique
+• Licences professionnelles du jeu vidéo
+• Écoles privées du numérique
+
+
+--salaire
+Le salaire d'un game designer débutant peut aller de 1 500€ à 1 900€ par mois. Après avoir acquéri un peu d'expérience il peut aller de 2 000€ à 3 000€ et même jusqu'à 3 500€ pour les plus expérimentés.
+
+--évolution possible
+Il est rare de commencer en tant que game designer, il faut souvent passer par le métier de level designer pendant quelques années.
+le Game designer peut, après quelques années, tenter de rentrer dans des studios à gros budget ou encore devenir chef de projet dans les jeux vidéos.
+
+
+https://www.esecad.com/formation-web/webdesigner/metier/webgame-designer.htm?src=gaw&utm_source=google&med=int&cmp=SN-ESECAD-SRC-Generique-DSA&utm_campaign=SN-ESECAD-SRC-Generique-DSA&utm_content=formations-web&utm_term=&utm_medium=cpc&gclid=Cj0KCQiA04XxBRD5ARIsAGFygj8eWLWOEhBgCobeLPUWHS_wGrDH5t2bQHbpzP0f2u08zIoteLw5AiEaAksFEALw_wcB
+
+
+http://etudiant.aujourdhui.fr/etudiant/metiers/fiche-metier/game-designer.html
+
+
+
+
+       

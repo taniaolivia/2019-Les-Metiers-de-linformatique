@@ -1,0 +1,156 @@
+/* Propriétés communes au menus d'en haut et d'en bas. */
+
+/* Conteneur des menus. */
+tabs {
+  display: block;
+  justify-content: center;
+  align-items: flex-end;
+	margin: 0;
+	padding: 0;
+}
+
+/* Menu principal du haut. */
+#top_tabs ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+	padding: 0;
+  list-style-type: none;
+}
+
+/* Bloc du menu déroulant. */
+#scrolling_top_tabs_block {
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+
+#scrolling_top_tabs_block a {
+  width: 100%;
+}
+
+/* Bouton du menu déroulant. */
+input[type=checkbox] {
+  display: none;
+}
+
+.checkbox {
+  display: none;
+  cursor: pointer;
+}
+
+/* Effet de survol du bouton du menu déroulant. */
+.checkbox:hover {
+  font-size: 25px;
+	background: var(--dark_red_color);
+  transition: all 0.3s ease;
+}
+
+/* Menu déroulant du haut. */
+#scrolling_top_tabs ul {
+  display: none;
+}
+
+/* Menu principal du bas. */
+#bottom_tabs ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+	margin: 20px 0 0 0;
+	padding: 0;
+  list-style-type: none;
+}
+
+/* Classe de la flèche */
+.arrow a {
+  width: 40px;
+  background: url(../images/menu/arrow.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.arrow:hover a {
+  background: url(../images/menu/arrow.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* Tous les liens contenu dans les menus. */
+tabs a {
+  display: block;
+	width: 300px;
+	height: 40px;
+  margin: 4px;
+  color: var(--white_color);
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+  line-height: 40px;
+  background: var(--red_color);
+  transition: all 0.3s ease;
+  user-select: none;
+  -ms-user-select: none;
+}
+
+/* Effet de survol des liens contenus dans les menus. */
+tabs ul li:hover a {
+  font-size: 25px;
+  background: var(--dark_red_color);
+  transition: all 0.3s ease;
+}
+
+/* Transformation à appliquer quand l'écran devient petit. */
+@media (max-width: 650px), (pointer: none), (pointer: coarse) {
+  /* Menu principal du haut. */
+  #top_tabs ul {
+    display: none;
+  }
+
+  /* Bouton du menu déroulant. */
+  .checkbox {
+    display: block;
+  }
+
+  /* Effet de survol du bouton du menu déroulant. */
+  .checkbox:hover {
+    font-size: 10vw;
+  }
+
+  /* Menu déroulant du haut. */
+  input[type=checkbox]:checked ~ #scrolling_top_tabs ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  /* Menu principal du bas. */
+  #bottom_tabs ul {
+    display: block;
+    width: 100%;
+  }
+
+  #bottom_tabs a {
+    width: 100%;
+  }
+
+  /* Tous les liens contenu dans les menus. */
+  tabs a {
+    margin: 4px 0 0 0;
+    height: 10vw;
+    line-height: 10vw;
+    font-size: 5vw;
+  }
+
+  /* Effet de survol des liens contenus dans les menus. */
+    tabs ul li:hover a {
+    font-size: 6vw;
+  }
+
+  /* Classe de la flèche */
+  .arrow a {
+    display: none;
+  }
+}
